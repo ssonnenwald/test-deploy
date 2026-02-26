@@ -3,9 +3,10 @@ import { LayoutComponent } from './core/components/layout/layout.component';
 
 @Component({
   selector: 'app-root',
+  standalone: true,
   imports: [LayoutComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
   title = 'Test Deploy';

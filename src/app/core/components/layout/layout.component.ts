@@ -5,8 +5,9 @@ import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-layout',
+  standalone: true,
   imports: [RouterOutlet, MatToolbar, MatToolbarRow, NgOptimizedImage],
   templateUrl: './layout.component.html',
-  styleUrl: './layout.component.scss',
+  styleUrls: ['./layout.component.scss'],
 })
 export class LayoutComponent {}
